@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-country-flag/precache-manifest.9a7eb9c5fc094f0deb67fd4aad95973b.js"
+  "/react-country-flag/precache-manifest.f6ecdc9336571f7cf3edda9f4be2ef61.js"
 );
 
 workbox.clientsClaim();
