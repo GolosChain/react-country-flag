@@ -1,10 +1,9 @@
 {
-  "name": "react-country-flag",
-  "version": "1.0.2",
-  "description": "React component for emoji/svg country flags.",
+  "name": "cyber-country-flag",
+  "version": "0.0.4",
+  "description": "Icons countries flags in *.svg",
   "author": "danalloway",
   "license": "MIT",
-  "repository": "danalloway/react-country-flag",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -12,17 +11,19 @@
     "node": ">=8",
     "npm": ">=5"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rollup -c",
     "start": "rollup -c -w",
     "prepare": "npm run build",
-    "predeploy": "cd example && npm install && npm run build",
-    "deploy": "gh-pages -d example/build"
+    "predeploy": "cd example && npm install && npm run build"
   },
   "peerDependencies": {
-    "prop-types": "^15.5.4",
-    "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0"
+    "prop-types": "^15.6.2",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -51,8 +52,5 @@
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-postcss": "^2.0.3",
     "rollup-plugin-url": "^2.2.0"
-  },
-  "files": [
-    "dist"
-  ]
+  }
 }
